@@ -25,6 +25,9 @@ Simple [Mastodon](https://github.com/tootsuite/mastodon) client for Linux
     libgtk-3-dev | 3.22 | 
     libhandy-1.0-dev | 1.0.0 | Will be attempted to install automatically if not present.
     libsecret-1-dev | 0.20 | Optional. Used for storing accounts using Secret Service API.
+
+#### Fedora
+`sudo dnf install meson vala libvala-devel glib2-devel glib-devel json-glib-devel libgee-devel libsoup-devel gtk3-devel libhandy1-devel libsecret-devel`
     
 
 2. Run `install.sh` in the project directory. The app will launch automatically on success.
