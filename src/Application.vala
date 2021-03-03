@@ -54,6 +54,10 @@ namespace Tootle {
 		construct {
 			application_id = Build.DOMAIN;
 			flags = ApplicationFlags.HANDLES_OPEN;
+
+        		Intl.setlocale (LocaleCategory.ALL, "");
+        		Intl.bindtextdomain (Build.GETTEXT_PACKAGE, Build.LOCALEDIR);
+        		Intl.textdomain (Build.GETTEXT_PACKAGE);
 		}
 
 		public string[] ACCEL_ABOUT = {"F1"};
